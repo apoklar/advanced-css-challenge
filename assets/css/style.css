@@ -17,7 +17,7 @@ body {
 
 .header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 40px;
 }
 
 .header nav {
@@ -55,25 +55,11 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.primary-border {
-    border-color: #fce138;
-  }
 
 .about-me, .work, .contact-me {
     margin-bottom: 20px;
@@ -93,7 +79,7 @@ p {
 .about-me p, .work p, .contact-me p {
     color: #39a6b2;
     font-size: 18px;
-    padding-left: 3px;
+    padding-left: 300px;
 }
 
 .verticalLine {
@@ -134,9 +120,6 @@ p {
       text-align: center;
     }
   
-    .section-title {
-      width: 80%;
-    }
     
     .contact-info iframe{
       flex: 1 100%;
@@ -149,34 +132,9 @@ p {
       padding: 30px 15px;
     }
   
-    .step h3 {
-      flex: 1 100%;
-      text-align: center;
-    }
-  
-    .step-info {
-      flex: 2 100%;
-      text-align: center;
-      justify-content: center;
-    }
-  
-    .step-img {
-      flex: 0 32%;
-      margin-right: 0;
-      margin-top: 15px;
-      margin-bottom: 15px;
-    }
-  
-    .step-text {
-      flex: 100%;  
-    }
-  }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
-    .hero-form button {
-      width: 100%;
-    }
   
     .section-title {
       width: 95%;
@@ -186,16 +144,5 @@ p {
       width: 100%;
     }
   
-    .contact-info {
-      text-align: center;
-    }
-  
-    .contact-info > * {
-      flex: 0 100%;
-    }
-  
-    .contact-form {
-      order: 3;
-    }
   }
   
