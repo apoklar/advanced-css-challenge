@@ -8,6 +8,8 @@ body {
     background-color:rgb(233, 232, 248);
 }
 
+/*HEADER*/
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,6 +48,8 @@ p {
     font-size: 16px;
 }
 
+/* HERO */
+
 .hero {
     height: 300px;
     width: 100%;
@@ -60,6 +64,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
 
 .about-me, .work, .contact-me {
     margin-bottom: 20px;
